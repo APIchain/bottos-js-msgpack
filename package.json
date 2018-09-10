@@ -6,11 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
-  	"type":"git",
-  	"url":"https://github.com/bottos-project/bottos-js-msgpack.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottos-project/bottos-js-msgpack.git"
   },
-  "keywords":["msgpack","bottos"],
+  "keywords": [
+    "msgpack",
+    "bottos"
+  ],
   "author": "yuanjunliang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "long": "^4.0.0"
+  }
 }
